@@ -20,7 +20,7 @@ void start() {
 	int node;
 
 	while (1) {
-		printf("\n\n\t½ÃÀÛÁ¡: ");
+		printf("\n\n\tì‹œìž‘ì : ");
 		scanf_s("%d", &node);
 
 		clear();
@@ -28,12 +28,12 @@ void start() {
 
 		if (node == 0) {
 			clear();
-			printf("\n\n\tÇÁ·Î±×·¥ÀÌ Á¾·áµË´Ï´Ù.\n");
+			printf("\n\n\tí”„ë¡œê·¸ëž¨ì´ ì¢…ë£Œë©ë‹ˆë‹¤.\n");
 			return;
 		}
 
 		if (node > V) {
-			printf("\t\t³ëµåÀÇ ¹üÀ§¸¦ ÃÊ°úÇÏ¿´½À´Ï´Ù.\n");
+			printf("\t\të…¸ë“œì˜ ë²”ìœ„ë¥¼ ì´ˆê³¼í•˜ì˜€ìŠµë‹ˆë‹¤.\n");
 			continue;
 		}
 
