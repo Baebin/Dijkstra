@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <limits.h>
 
-// ³ëµå °³¼ö
+// ë…¸ë“œ ê°œìˆ˜
 #define V 6
 
 int findNearestNode(int cost[V], int pass[V]);
