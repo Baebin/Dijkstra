@@ -18,6 +18,11 @@ ___
 
 ___
 
+## Example Output
+- [**Output Image Link**](https://github.com/Baebin/Dijkstra/issues/2)
+
+___
+
 ## Author's Blog (Naver)
 * [**Green Apple**](https://blog.naver.com/baebine) : https://blog.naver.com/baebine
 </br>(Feedback is always welcome!)
