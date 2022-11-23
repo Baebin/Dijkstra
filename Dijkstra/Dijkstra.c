@@ -1,6 +1,5 @@
 #include "Dijkstra.h"
-
-// ±ÙÁ¢ ³ëµå Å½»ö
+// ê·¼ì ‘ ë…¸ë“œ íƒìƒ‰
 int findNearestNode(int cost[V], int pass[V]) {
 	int min_cost = INT_MAX;
 	int min_index = -1;
@@ -16,9 +15,9 @@ int findNearestNode(int cost[V], int pass[V]) {
 	return min_index;
 }
 
-// ´ÙÀÍ½ºÆ®¶ó
+// ë‹¤ìµìŠ¤íŠ¸ë¼
 void dijkstra(int map[V][V], int start) {
-	// ÃÊ±â°ª
+	// ì´ˆê¸°ê°’
 	int cost[V];
 	int pass[V];
 
@@ -26,14 +25,14 @@ void dijkstra(int map[V][V], int start) {
 		cost[i] = INT_MAX;
 	}
 
-	// ½ÃÀÛ ÁöÁ¡
+	// ì‹œì‘ ì§€ì 
 	cost[start] = 0;
 
 	int stack = 0;
 	for (int i = 0; i < V - 1; i++) {
 		int newNode = findNearestNode(cost, pass);
 
-		// ±ÙÃ³ ³ëµå Å½»ö
+		// ê·¼ì²˜ ë…¸ë“œ íƒìƒ‰
 		for (int j = 0; j < V; j++) {
 			if (pass[j] == 1) continue;
 			if (map[newNode][j] == 0) continue;
