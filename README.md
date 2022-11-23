@@ -6,7 +6,7 @@ Pathfinding Algorithm
 ___
 
 ## What is this?
-- (This is 'Dijkstra' Pathfinding Algorithm.)
+- (This is Dijkstra's Pathfinding Algorithm.)
 - The shortest path from the input node to each node is displayed.
 - When entering 0, the program is terminated.
 
